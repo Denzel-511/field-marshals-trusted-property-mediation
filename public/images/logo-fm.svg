@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" fill="none">
+  <defs>
+    <linearGradient id="shieldGrad" x1="200" y1="0" x2="200" y2="480" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1B5E3B"/>
+      <stop offset="100%" stop-color="#14472D"/>
+    </linearGradient>
+    <linearGradient id="roofGrad" x1="200" y1="30" x2="200" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#C8A55A"/>
+      <stop offset="100%" stop-color="#B8943F"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Shield Shape -->
+  <path d="M200 10 L380 80 L380 260 Q380 400 200 470 Q20 400 20 260 L20 80 Z" fill="url(#shieldGrad)"/>
+  
+  <!-- Shield Border -->
+  <path d="M200 10 L380 80 L380 260 Q380 400 200 470 Q20 400 20 260 L20 80 Z" fill="none" stroke="#C8A55A" stroke-width="6"/>
+  
+  <!-- Inner Shield Border -->
+  <path d="M200 30 L360 92 L360 256 Q360 384 200 448 Q40 384 40 256 L40 92 Z" fill="none" stroke="#C8A55A" stroke-width="1.5" opacity="0.5"/>
+  
+  <!-- Rooftop / House Symbol -->
+  <path d="M200 70 L280 130 L270 130 L270 170 L130 170 L130 130 L120 130 Z" fill="url(#roofGrad)"/>
+  <!-- Chimney -->
+  <rect x="245" y="85" width="16" height="35" fill="#C8A55A"/>
+  <!-- Door -->
+  <rect x="185" y="140" width="30" height="30" rx="2" fill="#1B5E3B"/>
+  <!-- Windows -->
+  <rect x="145" y="138" width="22" height="20" rx="2" fill="#1B5E3B" opacity="0.7"/>
+  <rect x="233" y="138" width="22" height="20" rx="2" fill="#1B5E3B" opacity="0.7"/>
+  
+  <!-- Decorative Line -->
+  <line x1="80" y1="195" x2="320" y2="195" stroke="#C8A55A" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- FM Letters -->
+  <text x="200" y="310" text-anchor="middle" font-family="'Playfair Display', 'Georgia', serif" font-size="120" font-weight="700" fill="white" letter-spacing="8">FM</text>
+  
+  <!-- Tagline -->
+  <text x="200" y="365" text-anchor="middle" font-family="'DM Sans', 'Arial', sans-serif" font-size="18" font-weight="400" fill="#C8A55A" letter-spacing="6" text-transform="uppercase">REAL ESTATE</text>
+  <text x="200" y="390" text-anchor="middle" font-family="'DM Sans', 'Arial', sans-serif" font-size="14" font-weight="400" fill="#C8A55A" letter-spacing="8" opacity="0.8">AGENCY</text>
+</svg>
