@@ -65,7 +65,7 @@ const Footer = () => {
                 <MapPin className="h-4 w-4 shrink-0 mt-0.5" /> CharlesFely Estates, Ghana
               </div>
               <div className="flex items-start gap-2 opacity-80">
-                <Mail className="h-4 w-4 shrink-0 mt-0.5" /> info@fieldmarshals.com
+                <Mail className="h-4 w-4 shrink-0 mt-0.5" /> <Mail className="h-4 w-4 shrink-0 mt-0.5" /> info@fieldmarshals.online
               </div>
             </div>
           </div>
