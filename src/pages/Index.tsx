@@ -40,24 +40,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Stats Strip */}
-      <section className="bg-primary">
-        <div className="container-wide px-4 sm:px-6 lg:px-8 py-8">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 text-center">
-            {[
-              { value: "200+", label: "Properties Mediated" },
-              { value: "150+", label: "Happy Clients" },
-              { value: "10+", label: "Regions Covered" },
-              { value: "8+", label: "Years of Experience" },
-            ].map((stat) => (
-              <div key={stat.label}>
-                <p className="font-display text-3xl sm:text-4xl font-bold text-accent">{stat.value}</p>
-                <p className="text-sm text-primary-foreground/70 mt-1">{stat.label}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Services Preview */}
       <section className="section-padding bg-background">
