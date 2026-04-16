@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-4">
-              <img src="/images/logo.png" alt="FM Logo" className="h-10 w-auto brightness-200" />
+              <img src="/images/logo.png" alt="Field Marshals Real Estate" className="h-12 w-auto brightness-200" />
               <div>
                 <p className="font-display text-sm font-bold leading-tight">Field Marshals</p>
                 <p className="text-[10px] tracking-widest uppercase opacity-70">Real Estate Agency</p>
@@ -65,7 +65,7 @@ const Footer = () => {
                 <MapPin className="h-4 w-4 shrink-0 mt-0.5" /> CharlesFely Estates, Ghana
               </div>
               <div className="flex items-start gap-2 opacity-80">
-                <Mail className="h-4 w-4 shrink-0 mt-0.5" /> <Mail className="h-4 w-4 shrink-0 mt-0.5" /> info@fieldmarshals.online
+                <Mail className="h-4 w-4 shrink-0 mt-0.5" /> info@fieldmarshals.online
               </div>
             </div>
           </div>

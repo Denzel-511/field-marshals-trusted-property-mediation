@@ -31,7 +31,7 @@ const PropertyCard = ({ property }: { property: Property }) => {
 
         {/* Content */}
         <div className="p-5">
-          <p className="font-display text-xl font-bold text-primary mb-1">{property.price}</p>
+          
           <h3 className="font-display text-base font-semibold text-card-foreground mb-2 group-hover:text-primary transition-colors">
             {property.title}
           </h3>

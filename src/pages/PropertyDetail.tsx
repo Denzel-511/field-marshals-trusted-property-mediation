@@ -48,7 +48,6 @@ const PropertyDetail = () => {
 
             <div>
               <div className="flex flex-wrap items-center gap-3 mb-2">
-                <p className="font-display text-3xl font-bold text-primary">{property.price}</p>
                 <Badge variant="secondary">{property.type}</Badge>
               </div>
               <h1 className="font-display text-2xl font-bold text-foreground mb-2">{property.title}</h1>
